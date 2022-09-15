@@ -1,0 +1,41 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+
+#registeration_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  border: 2px solid green;
+}
+#form_ul {
+  list-style: none;
+  padding-left: 0;
+
+  border: 2px solid red;
+}
+#form_ul li {
+  margin-top: 10px;
+}
+#form_ul li .main_inputs {
+  height: 30px;
+  width: 400px;
+  border: none;
+  border-bottom: 1.5px solid black;
+}
+.submit_input_li {
+  position: relative;
+}
+#form_ul li .submit_input {
+  width: 100px;
+  top: 0;
+  position: absolute;
+}
+
+/* form validation */
+
+.fullNameInput::placeholder {
+  color: red;
+}

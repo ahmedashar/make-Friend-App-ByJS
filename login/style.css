@@ -1,0 +1,12 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+
+#registeration_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  border: 2px solid green;
+}
