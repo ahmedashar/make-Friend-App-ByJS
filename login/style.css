@@ -10,3 +10,23 @@
   width: 600px;
   border: 2px solid green;
 }
+
+.user_img {
+  width: 300px;
+  height: 300px;
+}
+
+/* friend screen , makes friends people */
+#make_friend_container {
+  border: 2px solid red;
+  /* position: relative; */
+}
+.show_people_images {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* position: absolute; */
+}
+#make_friend_container span {
+  padding-left: 60px;
+}

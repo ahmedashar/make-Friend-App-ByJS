@@ -5,6 +5,7 @@ function User(name,profileURL,email,password){
     this.profileURL = profileURL;
     this.email = email;
     this.password = password;
+    this.friends = [];
 }
 var getRegisteredUser;
 
@@ -91,18 +92,4 @@ function getValues(){
         ///////////////////// login page script
 
       
-    function login(){
-        var registeredUserInLocal = JSON.parse(localStorage.getItem('registeredUser'));
-
-        var userEmail = document.getElementById('email_login_input')
-
-        var userPassword = document.getElementById('password_login_input')
-
-        for(var i=0; i<registeredUserInLocal.length; i++){
-        if(userEmail.value == registeredUserInLocal[i].email && userPassword.value == registeredUserInLocal[i].password ){
-            alert('login successful')
-        }
-    }
-
-        console.log(registeredUserInLocal)
-    }
+   
